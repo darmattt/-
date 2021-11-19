@@ -1,0 +1,101 @@
+body {
+  color: #f8eeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(241, 221, 247);
+  font-size: 20px;
+ 
+}
+
+.container {
+  background-color: #370458;
+  border-radius: 150px;
+  padding: 70px;
+  /* height: 200px; */
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); 
+  color: rgb(255, 255, 255); 
+}
+
+.container h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quiz {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
+  color: rgb(71, 67, 67); 
+  background: rgb(255, 193, 138);
+  
+}
+
+
+
+.btn {
+  color: #635526;
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(248, 231, 184); 
+  padding: .7em 1.5em; 
+  margin-top: 20px;
+  border-radius: 150px;
+  align-items: center;
+} 
+.btn:hover { background: rgb(243, 157, 59); } 
+.btn:active { background: rgb(114, 67, 5); } 
+
+
+.list {
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(255, 181, 112); 
+  padding: .7em 1.5em; 
+  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
+  color: rgb(71, 67, 67);
+  background: rgb(255, 193, 138);
+
+}
+
+.radio-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.restext{
+  font-style: italic;
+ color: rgb(230, 106, 106); 
+ font-weight:bolder;
+ font-size: 22px;
+}
