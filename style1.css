@@ -1,101 +1,102 @@
-body {
-  color: #f8eeee;
+.body {
+  color: #000000;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(241, 221, 247);
   font-size: 20px;
- 
+  font-style:normal;
+  background-color: #ffe49a;
+  align-items: center;
 }
 
 .container {
-  background-color: #370458;
-  border-radius: 150px;
-  padding: 70px;
-  /* height: 200px; */
-  /* width: 400px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 10px;
 }
 
 .container h2 {
-  margin-top: 0;
-  text-align: center;
-  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); 
-  color: rgb(255, 255, 255); 
+  margin-top: 10;
+  text-align: left;
+  text-shadow: 1px 1px 2px rgb(230, 39, 39), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
+  color: rgb(78, 3, 3); /* Белый цвет текста */
+  font-size: 30px; /* Размер надписи */
+  margin: 10 auto;
 }
 
 .container h3 {
-  margin-top: 0;
-  text-align: center;
+  text-shadow: 1px 1px 2px rgb(230, 39, 39), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
+  color: rgb(0, 0, 0); /* Белый цвет текста */
+  font-size: 22px;
+  text-align: left;
 }
 
 .form-quiz {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
   flex-direction: column;
 }
 
 .quiz {
   display: block;
-  margin-bottom: 20px;
-  font-size: 18px;
-  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
-  color: rgb(71, 67, 67); 
-  background: rgb(255, 193, 138);
-  
+  margin-bottom: 10px;
 }
-
 
 
 .btn {
-  color: #635526;
-  text-decoration: none; 
-  user-select: none; 
-  background: rgb(248, 231, 184); 
+  color: #47545c;
+  background: rgb(104, 122, 180); 
   padding: .7em 1.5em; 
-  margin-top: 20px;
-  border-radius: 150px;
-  align-items: center;
-} 
-.btn:hover { background: rgb(243, 157, 59); } 
-.btn:active { background: rgb(114, 67, 5); } 
+  font-size: 15px;
+  margin-top: 80px;
+  margin-left: 50px;
+
+}
+.form_radio_btn {
+	display: inline-block;
+  margin-right: 10px;
+  font-style: italic;
+  color: rgb(132, 171, 255); 
+  font-weight:bolder;
+  font-size: 22px;
+}
+
+.btn:hover { background: rgb(232, 158, 255); } 
+.btn:active { background: rgb(188, 73, 255); } 
 
 
 .list {
+  color: #5f4356;
   text-decoration: none; 
   user-select: none; 
-  background: rgb(255, 181, 112); 
+  background: rgb(161, 199, 255); 
   padding: .7em 1.5em; 
-  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(231, 152, 152); /* Параметры тени */
-  color: rgb(71, 67, 67);
-  background: rgb(255, 193, 138);
+  font-size: 17px;
+} 
+
+
+.restext {
+  margin-top: 10px;
+  color: rgb(255, 0, 0);
+  font-size: 22px; 
+  font-style: italic;
 
 }
+ 
+.form_radio_btn input[type=radio]:checked + label {
+  background: #5fc7f7;
+} /* при выборе */
+ 
+.form_radio_btn label:hover {
+  color: rgb(186, 153, 190);
+  background: #faf3fd;
+} /* при наведении курсора мышки */
+ 
 
 .radio-buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr ;
   column-gap: 20px;
   row-gap: 20px;
 }
 
-.outer-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.restext{
-  font-style: italic;
- color: rgb(230, 106, 106); 
- font-weight:bolder;
- font-size: 22px;
-}
